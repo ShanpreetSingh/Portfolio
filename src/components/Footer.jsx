@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 text-center">
         <div className="flex justify-center space-x-6 mb-6">
           <a
-            href="https://github.com"
+            href="https://github.com/ShanpreetSingh"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
@@ -23,7 +23,6 @@ export default function Footer() {
               />
             </svg>
           </a>
-          {/* Add more social links as needed */}
         </div>
         <p className="text-gray-600 dark:text-gray-300">
           © {new Date().getFullYear()} My Portfolio. All rights reserved.

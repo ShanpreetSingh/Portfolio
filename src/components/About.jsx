@@ -7,13 +7,8 @@ export default function About() {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-              I'm a passionate developer with 5+ years of experience building web applications.
-              I specialize in JavaScript, React, Node.js, and modern web technologies.
-            </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              When I'm not coding, you can find me hiking, reading tech blogs, or contributing
-              to open source projects.
-            </p>
+            I’m a B.Tech CSE student at NIT Hamirpur, passionate about web development and a Data Structures and Algorithms enthusiast. I enjoy crafting impactful digital experiences and solving complex problems through code. With experience as a State Level Youth Parliamentarian, I bring a blend of technical skills, leadership, and effective communication—always driven to learn and grow.            </p>
+  
           </div>
         </div>
       </section>
