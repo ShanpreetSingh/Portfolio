@@ -6,7 +6,7 @@ export default function Hero() {
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Shanpreet Singh</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            A passionate Full Stack Developer
+            A passionate DSA enthusiast and Web Developer
           </p>
           <div className="flex justify-center space-x-4">
             <a
