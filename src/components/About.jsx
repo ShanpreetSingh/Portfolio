@@ -7,7 +7,11 @@ export default function About() {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-            I’m a B.Tech CSE student at NIT Hamirpur, passionate about web development and  Data Structures and Algorithms. I enjoy crafting impactful digital experiences and solving complex problems through code. With experience as a State Level Youth Parliamentarian, I bring a blend of technical skills, leadership, and effective communication—always driven to learn and grow.            </p>
+            I’m a B.Tech CSE student at NIT Hamirpur, deeply passionate about web development and Data Structures & Algorithms. I love crafting impactful digital experiences and solving complex problems through code.
+Beyond the technical world, I express my creativity through poetry, believing that logic and imagination go hand in hand.
+As a State-Level Youth Parliamentarian, I have honed leadership, public speaking, and critical thinking skills — blending technical expertise with strong communication and a growth mindset.
+I’m always eager to learn, build, and create meaningful solutions that make a difference.
+                 </p>
   
           </div>
         </div>
