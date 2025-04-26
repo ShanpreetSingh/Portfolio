@@ -1,7 +1,8 @@
 const skills = [
   'JavaScript', 'React', 
   'HTML', 'CSS', 
-  'Git', 'Django'
+  'Git', 'Django',
+  'Data Structure and Algorithms','JSON PowerDB'
 ];
 
 export default function Skills() {

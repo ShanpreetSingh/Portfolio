@@ -7,7 +7,7 @@ export default function About() {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-            I’m a B.Tech CSE student at NIT Hamirpur, passionate about web development and a Data Structures and Algorithms enthusiast. I enjoy crafting impactful digital experiences and solving complex problems through code. With experience as a State Level Youth Parliamentarian, I bring a blend of technical skills, leadership, and effective communication—always driven to learn and grow.            </p>
+            I’m a B.Tech CSE student at NIT Hamirpur, passionate about web development and  Data Structures and Algorithms. I enjoy crafting impactful digital experiences and solving complex problems through code. With experience as a State Level Youth Parliamentarian, I bring a blend of technical skills, leadership, and effective communication—always driven to learn and grow.            </p>
   
           </div>
         </div>

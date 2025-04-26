@@ -21,6 +21,12 @@ const Projects = () => {
       github: "#",
       //demo: "#",
     },
+    {
+      title: "STUDENT DATABASE",
+      description: "A platform that helps to store the records of students and implements DataBase Management System.",
+      github: "#",
+      //demo: "#",
+    },
   ];
 
   return (
