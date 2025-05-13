@@ -1,6 +1,6 @@
 const skills = [
   'JavaScript', 'React', 
-  'HTML', 'CSS', 
+  'HTML', 'CSS', 'Java',
   'Git', 'Django',
   'Data Structure and Algorithms','JSON PowerDB'
 ];
