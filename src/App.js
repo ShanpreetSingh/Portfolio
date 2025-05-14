@@ -13,29 +13,35 @@ import Poetry from './components/Poetry';
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'projects', 'contact'];
-      const scrollPosition = window.scrollY + 100;
+useEffect(() => {
+  const handleScroll = () => {
+    const sections = ['home', 'about', 'skills', 'projects', 'poetry', 'contact'];
+    let currentSection = 'home';
+    const scrollPosition = window.scrollY + 150; 
 
-      for (const section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const offsetTop = element.offsetTop;
-          const offsetHeight = element.offsetHeight;
+    for (const section of sections) {
+      const element = document.getElementById(section);
+      if (!element) continue;
 
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(section);
-            break;
-          }
-        }
+      const { offsetTop, offsetHeight } = element;
+      const sectionBottom = offsetTop + offsetHeight;
+
+      if (scrollPosition >= offsetTop && scrollPosition < sectionBottom) {
+        currentSection = section;
+        break;
       }
-    };
+    }
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    if (currentSection !== activeSection) {
+      setActiveSection(currentSection);
+    }
+  };
 
+  handleScroll();
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  
+  return () => window.removeEventListener('scroll', handleScroll);
+}, [activeSection]);
   return (
     <ThemeProvider>
       <Header activeSection={activeSection} />
@@ -44,7 +50,7 @@ function App() {
         <About id="about" />
         <Skills id="skills" />
         <Projects id="projects" />
-        <Poetry />
+        <Poetry id="poetry" /> 
         <Contact id="contact" />
       </main>
       <Footer />
