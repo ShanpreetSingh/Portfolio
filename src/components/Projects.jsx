@@ -6,25 +6,25 @@ const Projects = () => {
     {
       title: "KISAN HELP",
       description: "A platform that helps farmers with necessary services.",
-      github: "#",
+      github: "https://github.com/ShanpreetSingh/KISAN-HELP",
       //demo: "#",
     },
     {
       title: "WEBSITE DRAG AND DROP BUILDER",
       description: "Drag and drop website builder , simple design and easy to implement platform.",
-      github: "#",
+      github: "https://github.com/ShanpreetSingh/Website-Drag-Drop-Builder",
       //demo: "#",
     },
     {
       title: "COMPUTER ORGANIZATION AND ARCHITECTURE",
       description: "Important codes related to Computer Organization and Architecture.",
-      github: "#",
+      github: "https://github.com/ShanpreetSingh/Computer-Organization-and-Architecture",
       //demo: "#",
     },
     {
       title: "STUDENT DATABASE",
       description: "A platform that helps to store the records of students and implements DataBase Management System.",
-      github: "#",
+      github: "https://github.com/ShanpreetSingh/StudentDatabase",
       //demo: "#",
     },
   ];
