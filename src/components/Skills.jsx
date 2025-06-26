@@ -2,7 +2,8 @@ const skills = [
   'JavaScript', 'React', 
   'HTML', 'CSS', 'Java',
   'Git', 'Django',
-  'Data Structure and Algorithms','JSON PowerDB'
+  'Data Structure and Algorithms','JSON PowerDB',
+  'MediaSoup','STUN/TURN','WebRTC',
 ];
 
 export default function Skills() {

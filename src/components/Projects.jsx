@@ -27,6 +27,18 @@ const Projects = () => {
       github: "https://github.com/ShanpreetSingh/StudentDatabase",
       //demo: "#",
     },
+    {
+      title: "VIDEO CONFERENCE APP",
+      description: "A modern, production-ready video conferencing application built with React, TypeScript, and MediaSoup. Features HD video calling, screen sharing, real-time chat, and participant management.",
+      github: "https://github.com/ShanpreetSingh/video-conference-app",
+      //demo: "#",
+    },
+     {
+      title: "POLICY IMPACT",
+      description: "A Django-based visual analytics platform to process and visualize government scheme data using barcharts and geospatial mapping.",
+      github: "https://github.com/ShanpreetSingh/policy_impact",
+      //demo: "#",
+    },
   ];
 
   return (
